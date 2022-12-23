@@ -21,7 +21,6 @@ function PokemonCollection({ searchWord, pokemonList, setPokemonList }) {
 
   return (
     <Card.Group itemsPerRow={6}>
-      <h1>Hello From Pokemon Collection</h1>
       {searchList.map((pokemon) => {
         return <PokemonCard key={pokemon.id} pokemon={pokemon} />;
       })}
